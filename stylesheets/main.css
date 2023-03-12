@@ -1,0 +1,113 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h4{
+  font-size: 22;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h5{
+  font-size: 18;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+p{
+  font-size: 14;
+}
+
+/* Header */
+.header{
+  padding: 15px 20px;
+  background-color: AA0000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  color: white;
+  font-size: 24;
+  font-weight: bold
+}
+
+.login{
+  align-self: center;
+  font-size: 14;
+  font-weight: bold
+}
+
+/* Navigation */
+.navigation{
+  padding: 15px 20px;
+  display: flex;
+  background-color: #333333;
+  justify-content: right;
+}
+
+.links{
+  font-size: 14;
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Body */
+.attractions{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* gap: 20px; */
+}
+
+/* Main Body */
+.main-attraction{
+  padding: 20px;
+}
+
+.dma-img{
+  width: 100%
+}
+
+.dma-text{
+  width: 95%;
+  padding: 20px;
+  align-content: center;
+}
+
+/* Side Body */
+.side-attractions{
+  padding: 20px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90rem;
+}
+
+.side{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-img {
+  align-self: flex-end;
+  width: 100%
+}
+
+/* Footer */
+.footer{
+  background-color: #333333;
+  color: white;
+  padding: 15px 20px;
+  align-self: flex-end;
+}
