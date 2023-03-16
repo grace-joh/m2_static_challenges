@@ -1,0 +1,132 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h4{
+  font-size: 22;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: white;
+}
+
+h5{
+  font-size: 18;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+p{
+  font-size: 12;
+  color: white;
+}
+
+/* Header */
+.header{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.title{
+  color: white;
+  font-size: 24;
+  font-weight: bold;
+  background-color: #333333;
+  padding: 15px 20px;
+  width: 95%
+}
+
+.login{
+  text-align: center;
+  font-size: 14;
+  background-color: #588C09;
+  padding: 20px;
+  width: 5%
+}
+
+/* Navigation */
+.navigation{
+  margin: 0.5px 0px;
+  padding: 15px 20px;
+  display: flex;
+  background-color: #052E63;
+  justify-content: center;
+}
+
+.links{
+  font-size: 14;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+}
+
+/* Body */
+.attractions{
+  width: 100%;
+}
+
+/* Main Body */
+.main-attraction{
+}
+
+.dma-title-img{
+  position: relative;
+  height: 400px ;
+}
+
+.dma-title{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.dma-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dma-text{
+  padding: 20px;
+  align-content: center;
+  background-color: #333333;
+}
+
+/* Side Body */
+.side-attractions{
+  padding: 40px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 20%;
+}
+
+.side{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 150px;
+}
+
+.side-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer{
+  background-color: #333333;
+  color: white;
+  padding: 15px 20px;
+  align-self: flex-end;
+}
